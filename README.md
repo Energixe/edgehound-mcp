@@ -24,7 +24,7 @@ Add the server to your MCP config:
 }
 ```
 
-On first use your client will ask you to sign in to MCPize (that's where the free tier and billing live). After that:
+On first use your client will ask you to sign in to MCPize. After that:
 
 > "write tests for src/pricing.ts"
 
@@ -59,10 +59,6 @@ node --test examples/user-utils.test.js
 ```
 
 Languages today: JavaScript/TypeScript (Jest, Vitest, node:test), Python (pytest), Go, PHP (PHPUnit), Ruby (RSpec), Rust (cargo test).
-
-## Pricing
-
-Free tier: 5 suites a month. Paid plans start at $9.99/month. Full details on the marketplace page: https://mcpize.com/mcp/gauntlet
 
 ## Issues
 

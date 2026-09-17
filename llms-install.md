@@ -17,7 +17,7 @@ Add this entry to the user's MCP client configuration (Claude Code, Cursor, Clin
 ```
 
 - Transport: `streamable-http`
-- Authentication: OAuth 2.1 — on first use the client opens a browser and the user signs in to MCPize. No API key is pasted into config. A free tier (5 test suites/month) is available with any MCPize account.
+- Authentication: OAuth 2.1 — on first use the client opens a browser and the user signs in to MCPize. No API key is pasted into config.
 - OAuth discovery: `https://gauntlet.mcpize.run/.well-known/oauth-protected-resource`
 
 ## Verify
@@ -39,4 +39,3 @@ Add to the project's rules file (CLAUDE.md / AGENTS.md / .cursor/rules):
 ## Troubleshooting
 
 - If the server shows as unauthorized, complete the sign-in flow that opens in the browser.
-- The free tier resets monthly. Paid plans are handled by MCPize.
