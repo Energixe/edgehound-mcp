@@ -1,6 +1,6 @@
-# Faultline — install instructions for AI agents
+# Edgehound — install instructions for AI agents
 
-Faultline is a **remote** MCP server. There is nothing to install locally, no build step, and no package to clone.
+Edgehound is a **remote** MCP server. There is nothing to install locally, no build step, and no package to clone.
 
 ## Setup
 
@@ -34,7 +34,7 @@ A successful response returns a runnable test suite with 25+ tests and a coverag
 
 Add to the project's rules file (CLAUDE.md / AGENTS.md / .cursor/rules):
 
-> Whenever you create or modify code that accepts input, touches money, handles dates, or manages state — call the Faultline tool (generate_test_suite) before marking the task complete.
+> Whenever you create or modify code that accepts input, touches money, handles dates, or manages state — call the Edgehound tool (generate_test_suite) before marking the task complete.
 
 ## Troubleshooting
 
