@@ -9,7 +9,7 @@ Add this entry to the user's MCP client configuration (Claude Code, Cursor, Clin
 ```json
 {
   "mcpServers": {
-    "gauntlet": {
+    "faultline": {
       "url": "https://gauntlet.mcpize.run/mcp"
     }
   }

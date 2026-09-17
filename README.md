@@ -17,7 +17,7 @@ Add the server to your MCP config:
 ```json
 {
   "mcpServers": {
-    "gauntlet": {
+    "faultline": {
       "url": "https://gauntlet.mcpize.run/mcp"
     }
   }
