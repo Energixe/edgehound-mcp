@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Energixe/gauntlet-mcp",
+  "title": "Gauntlet",
+  "description": "Writes adversarial test suites for AI-built code. Your agent's test engineer.",
+  "version": "1.1.0",
+  "websiteUrl": "https://mcpize.com/mcp/gauntlet",
+  "repository": {
+    "url": "https://github.com/Energixe/gauntlet-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gauntlet.mcpize.run/mcp"
+    }
+  ]
+}
