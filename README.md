@@ -1,4 +1,4 @@
-# Gauntlet
+# Faultline
 
 An MCP server that writes test suites designed to break your code.
 
@@ -6,7 +6,7 @@ This repo is the public front door — install guide, examples, and issue tracki
 
 ## What it does
 
-Point your AI agent at a file, and Gauntlet writes a complete, runnable test suite that attacks it: boundary values, unicode and emoji, timezone and month-end math, float money rounding, double submits, injection strings, pagination edges. It also predicts — before you run anything — which bugs the suite will expose, with the exact code evidence for each.
+Point your AI agent at a file, and Faultline writes a complete, runnable test suite that attacks it: boundary values, unicode and emoji, timezone and month-end math, float money rounding, double submits, injection strings, pagination edges. It also predicts — before you run anything — which bugs the suite will expose, with the exact code evidence for each.
 
 Works with Claude Code, Cursor, opencode, VS Code, and any MCP client.
 
@@ -32,11 +32,11 @@ and your agent does the rest.
 
 ## Make it automatic
 
-Paste this into your project's rules file (`CLAUDE.md`, `AGENTS.md`, or `.cursor/rules`), and your agent will reach for Gauntlet every time it writes or changes input-handling code — no prompting needed:
+Paste this into your project's rules file (`CLAUDE.md`, `AGENTS.md`, or `.cursor/rules`), and your agent will reach for Faultline every time it writes or changes input-handling code — no prompting needed:
 
 ```
 Whenever you create or modify code that accepts input, touches money, handles
-dates, or manages state — call the Gauntlet tool (generate_test_suite) before
+dates, or manages state — call the Faultline tool (generate_test_suite) before
 marking the task complete. Save the returned suite next to the file, run it,
 and fix any failing test by fixing the code, not by weakening the test.
 Skip only for pure UI markup, copy changes, and configuration.
